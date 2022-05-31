@@ -7,7 +7,7 @@ function validation() {
   if (email.match(pattern)) {
     form.classList.add("valid");
     form.classList.remove("invalid");
-    text.innerHTML = "Your Email Address in valid";
+    text.innerHTML = "Your Email Address is valid";
     text.style.color = "#00ff00";
   } else {
     form.classList.add("valid");
